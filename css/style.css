@@ -1,23 +1,35 @@
-*, html{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
-header{
-    position: fixed;
+header {
+  position: fixed;
+  align-items: center;
 }
 
-header nav{
-    display: flex;
-    justify-content: space-between;
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
-header nav ul{
-    display: flex;
-    list-style-type: none;
-    gap: 5;
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 5px;
 }
-header nav ul li a{
-    text-decoration: none;
-    gap: 5;
-    color: black;
+header nav ul li a {
+  text-decoration: none;
+
+  color: black;
+}
+header nav ul li a:hover {
+  color: crimson;
+  transition: 0.3s;
+}
+header nav ul li .btn-order {
+  background-color: crimson;
+  color: white;
+  padding: 8px;
+  border-radius: 8px;
 }
