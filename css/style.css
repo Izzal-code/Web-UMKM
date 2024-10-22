@@ -29,21 +29,35 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   color: #000000;
+  font-size: 15px;
 }
 header nav ul li a:hover {
   color: #f2d688;
   transition: 0.3s;
 }
-header nav ul li .btn-order {
+
+.btn-order {
   background-color: #f2d688;
   padding: 8px;
   border-radius: 8px;
-}
-header nav ul li .btn-order:hover {
+  text-decoration: none;
   color: #000000;
   font-size: 15px;
 }
+.btn-order:hover {
+  color: #000000;
+  font-size: 13px;
+  transition: 0.3s;
+}
 .hero {
-  text-align: center;
+  display: flex;
   padding: 100px;
+  flex-wrap: wrap;
+  padding: 200px;
+  justify-content: space-between;
+  text-align: center;
+}
+.hero .article-img img {
+  height: 300px;
+  border-radius: 10px;
 }
