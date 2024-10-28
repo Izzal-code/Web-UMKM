@@ -66,6 +66,29 @@ header nav ul li a:hover {
 }
 .product-sect {
   display: column;
+  padding: 25px 75px 25px 75px;
   background-color: #dbb752;
   text-align: center;
+}
+.product-sect .product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+.product-sect .product-list .product {
+  display: flex;
+  background-color: #fff;
+  height: 270px;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.product-sect .product-list .product img {
+  height: 250px;
+  border-radius: 10px;
+}
+.product-sect .product-list .product-desc {
+  display: column;
 }
