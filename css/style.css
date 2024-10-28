@@ -57,7 +57,15 @@ header nav ul li a:hover {
   justify-content: space-between;
   text-align: center;
 }
+.herp .article {
+  align-items: center;
+}
 .hero .article-img img {
   height: 300px;
   border-radius: 10px;
+}
+.product-sect {
+  display: column;
+  background-color: #dbb752;
+  text-align: center;
 }
