@@ -74,6 +74,8 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 75px;
+  justify-content: center;
+  align-items: center;
 }
 .product-sect .product-list .product {
   display: flex;
@@ -91,4 +93,5 @@ header nav ul li a:hover {
 }
 .product-sect .product-list .product-desc {
   display: column;
+  padding: 5px;
 }
