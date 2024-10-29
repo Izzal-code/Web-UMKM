@@ -53,10 +53,12 @@ header nav ul li a:hover {
   padding: 200px;
   justify-content: space-between;
   text-align: center;
-}
-.herp .article {
   align-items: center;
 }
+.hero .article {
+}
+
+/* Product */
 .product-sect {
   display: column;
   padding: 25px 75px 25px 75px;
@@ -88,6 +90,9 @@ header nav ul li a:hover {
   display: column;
   padding: 5px;
 }
+/* Product End */
+
+/* Testi */
 .testi {
   display: column;
   padding: 25px 75px 25px 75px;
@@ -103,3 +108,36 @@ header nav ul li a:hover {
   display: flex;
   gap: 8px;
 }
+/* Testi End */
+
+/* Contact Us */
+.contact-us {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+.contact-us form {
+  background-color: #d6d2d271;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  background-color: #f2d688;
+  width: 50vw;
+}
+.contact-us form input {
+  width: 75%;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+/* Contact Us End */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbb752;
+}
+/* Footer End */
