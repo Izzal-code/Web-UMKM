@@ -51,7 +51,8 @@ header nav ul li a:hover {
   padding: 100px;
   flex-wrap: wrap;
   padding: 200px;
-  justify-content: space-between;
+  gap: 25px;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
