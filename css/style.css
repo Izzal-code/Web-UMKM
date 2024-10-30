@@ -98,9 +98,13 @@ header nav ul li a:hover {
 .testi .comment {
   display: column;
   background-color: #d6d2d271;
-  padding: 10px;
-  margin: 10px 0px 10px 0px;
-  box-shadow: 7px 10px #616060;
+  box-shadow: 10px 10px 50px 10px rgba(16, 17, 17, 0.412);
+  border-color: #1a191971;
+
+  border-width: 50px;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 25px 0px 25px 0px;
 }
 .testi .comment .profile {
   display: flex;
@@ -112,10 +116,10 @@ header nav ul li a:hover {
 .contact-us {
   display: flex;
   justify-content: center;
-  margin: 25px;
+  margin: 50px;
 }
 .contact-us form {
-  background-color: #d6d2d271;
+  box-shadow: 10px 5px 50px 5px rgba(16, 17, 17, 0.412);
   border-radius: 15px;
   text-align: center;
   padding: 15px;
