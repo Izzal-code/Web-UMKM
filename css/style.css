@@ -1,7 +1,7 @@
 *,
 html,
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -68,6 +68,7 @@ header nav ul li a:hover {
 }
 .product-sect .product-list {
   display: flex;
+  margin-top: 20px;
   flex-wrap: wrap;
   gap: 75px;
   justify-content: center;
@@ -88,9 +89,16 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
 .product-sect .product-list .product-desc {
-  display: column;
+  display: flex;
+  flex-direction: column;
   padding: 5px;
 }
+
+.product-sect .product-list .product-desc p,
+h4 {
+  margin: 15px;
+}
+
 /* Product End */
 
 /* Testi */
@@ -107,10 +115,11 @@ header nav ul li a:hover {
   border-width: 50px;
   padding: 15px;
   border-radius: 20px;
-  margin: 25px 0px 25px 0px;
+  margin: 35px 0px 35px 0px;
 }
 .testi .comment .profile {
   display: flex;
+  margin-bottom: 20px;
   gap: 8px;
 }
 /* Testi End */
